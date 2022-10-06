@@ -4,13 +4,18 @@
     box-sizing: border-box;
 }
 
+div {
+    max-width: 700px;
+    min-width: 400px;
+    width: 80%;
+}
+
 .box {
     background-color: #948f8f;
     color: #030303;
-    margin: 3em auto;
+    margin: 0 auto;
     padding: 3em;
     border: 3px solid red;
-    margin: 1em;
 
 }
 
@@ -73,4 +78,13 @@ a {
     color: #ffffff;
     border: 2px solid red;
     margin: 1em;
+}
+
+div, .second-main {
+    background-color: #ffffff;
+    color: #030303;
+    padding: 2em;
+    margin: 4em auto;
+    border: 3px solid rgb(0, 0, 0);
+    
 }
